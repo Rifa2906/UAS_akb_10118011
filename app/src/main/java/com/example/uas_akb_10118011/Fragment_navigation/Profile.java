@@ -18,7 +18,7 @@ import com.example.uas_akb_10118011.R;
 public class Profile extends Fragment {
 
 //    Tanggal pengerjaan 11/08/2021
-//    Moch Rifa Maulana N
+//    Moch Rifa Maulana
 //    10118011
 //    IF 10
 
