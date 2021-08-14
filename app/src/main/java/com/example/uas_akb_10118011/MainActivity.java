@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.example.uas_akb_10118011.Fragments.Fragment_1;
 import com.example.uas_akb_10118011.Fragments.Fragment_2;
 import com.example.uas_akb_10118011.Fragments.Fragment_3;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         pager = findViewById(R.id.view_pager);
         pagerAdapter = new SlidePagerAdapter(getSupportFragmentManager(),list);
         pager.setAdapter(pagerAdapter);
+
 
 
 

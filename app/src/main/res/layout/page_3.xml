@@ -8,11 +8,12 @@
     <ImageView
         android:layout_width="250dp"
         android:layout_height="200dp"
-        android:src="@drawable/w_3"/>
+        android:src="@drawable/vp_3"/>
     <TextView
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="@string/Nexjs"
+        android:text="@string/about"
         android:layout_marginBottom="40dp"/>
+
 
 </LinearLayout>

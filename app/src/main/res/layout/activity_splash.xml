@@ -5,16 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/background"
+    android:orientation="vertical"
     tools:context=".Splash">
 
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/splash_sc"/>
+
     <TextView
-        android:gravity="center"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:text="Profile App"
-        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Apps"
+        android:textColor="@color/black"
         android:textSize="50dp"/>
+
+
 
 
 </LinearLayout>
